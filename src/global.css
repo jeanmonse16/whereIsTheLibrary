@@ -1,0 +1,37 @@
+html{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', BlinkMacSystemFont, -apple-system, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  *, *::before, *::after {
+    box-sizing: inherit;
+  }
+
+  ul, li, h1, h2, h3, p, button {
+    margin: 0;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  button {
+    background: transparent;
+    border: 0;
+    outline: 0;
+  }
+
+  body{
+    height: 100vh;
+    background: #EAEDB9;
+    margin: 0 auto;
+    max-width: 1000px;
+    overscroll-behavior: none;
+    width: 100%;
+  }
+
+  #app{
+    overflow-x: hidden;
+    min-height: 100vh;
+    padding-bottom: 10px;
+  }
