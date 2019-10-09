@@ -1,0 +1,12 @@
+.Header {
+  color: none;
+}
+.Header__Background{
+   display: block;
+   border-radius: 10%;
+}
+.Header__Background--Img{
+  width: 100%;
+  height: 100%;
+  border-radius: 2%;
+}
