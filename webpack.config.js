@@ -31,6 +31,17 @@ module.exports = {
           'css-loader',
           'sass-loader'
         ]
+      },
+      {
+        test: /\.jpg|png|gif|svg|mp4|webm|woff|eot|ttf$/,
+        use: [{
+          loader: 'url-loader',
+          options: {
+            limit: 90000
+          }
+        }
+        ],
+        exclude: /node_modules/
       }
     ]
   },

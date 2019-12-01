@@ -23,7 +23,7 @@ html{
 
   body{
     height: 100vh;
-    background-image: url("https://i.imgur.com/W8Egih8.jpg");
+    background-image: url("./images/library-background.jpg");
     background-size: cover;
     margin: 0 auto;
     max-width: 1000px;
@@ -38,3 +38,5 @@ html{
     min-height: 100vh;
     padding-bottom: 10px;
   }
+
+  
