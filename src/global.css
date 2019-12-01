@@ -32,8 +32,7 @@ html{
   }
 
   #app{
-    background-color: #EAEDB9;
-    box-shadow: 10px 0 10px 10px #2E2300, -10px 0px 10px 10px #2E2300;
+    background-color: transparent;
     overflow-x: hidden;
     min-height: 100vh;
     padding-bottom: 10px;
