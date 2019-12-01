@@ -1,7 +1,8 @@
 .Header{
     background: #EAEDB9;
-    height: 100px;
+    height: 140px;
     display: flex;
     justify-content: center;
-    text-align: center;
+    align-items: center;
+    border-radius: 0 0 10px 10px;
 }
